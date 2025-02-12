@@ -1,0 +1,15 @@
+/media/fahad9/All programming/c-sharp-basic/Exercise/bin/Debug/net8.0/Exercise
+/media/fahad9/All programming/c-sharp-basic/Exercise/bin/Debug/net8.0/Exercise.deps.json
+/media/fahad9/All programming/c-sharp-basic/Exercise/bin/Debug/net8.0/Exercise.runtimeconfig.json
+/media/fahad9/All programming/c-sharp-basic/Exercise/bin/Debug/net8.0/Exercise.dll
+/media/fahad9/All programming/c-sharp-basic/Exercise/bin/Debug/net8.0/Exercise.pdb
+/media/fahad9/All programming/c-sharp-basic/Exercise/obj/Debug/net8.0/Exercise.GeneratedMSBuildEditorConfig.editorconfig
+/media/fahad9/All programming/c-sharp-basic/Exercise/obj/Debug/net8.0/Exercise.AssemblyInfoInputs.cache
+/media/fahad9/All programming/c-sharp-basic/Exercise/obj/Debug/net8.0/Exercise.AssemblyInfo.cs
+/media/fahad9/All programming/c-sharp-basic/Exercise/obj/Debug/net8.0/Exercise.csproj.CoreCompileInputs.cache
+/media/fahad9/All programming/c-sharp-basic/Exercise/obj/Debug/net8.0/Exercise.sourcelink.json
+/media/fahad9/All programming/c-sharp-basic/Exercise/obj/Debug/net8.0/Exercise.dll
+/media/fahad9/All programming/c-sharp-basic/Exercise/obj/Debug/net8.0/refint/Exercise.dll
+/media/fahad9/All programming/c-sharp-basic/Exercise/obj/Debug/net8.0/Exercise.pdb
+/media/fahad9/All programming/c-sharp-basic/Exercise/obj/Debug/net8.0/Exercise.genruntimeconfig.cache
+/media/fahad9/All programming/c-sharp-basic/Exercise/obj/Debug/net8.0/ref/Exercise.dll

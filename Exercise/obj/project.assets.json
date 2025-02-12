@@ -8,19 +8,19 @@
     "net8.0": []
   },
   "packageFolders": {
-    "/home/fahim09/.nuget/packages/": {}
+    "/home/fahad9/.nuget/packages/": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/media/fahim09/All programming/c sharp basic/basic/basic.csproj",
-      "projectName": "basic",
-      "projectPath": "/media/fahim09/All programming/c sharp basic/basic/basic.csproj",
-      "packagesPath": "/home/fahim09/.nuget/packages/",
-      "outputPath": "/media/fahim09/All programming/c sharp basic/basic/obj/",
+      "projectUniqueName": "/media/fahad9/All programming/c-sharp-basic/Exercise/Exercise.csproj",
+      "projectName": "Exercise",
+      "projectPath": "/media/fahad9/All programming/c-sharp-basic/Exercise/Exercise.csproj",
+      "packagesPath": "/home/fahad9/.nuget/packages/",
+      "outputPath": "/media/fahad9/All programming/c-sharp-basic/Exercise/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
-        "/home/fahim09/.nuget/NuGet/NuGet.Config"
+        "/home/fahad9/.nuget/NuGet/NuGet.Config"
       ],
       "originalTargetFrameworks": [
         "net8.0"
