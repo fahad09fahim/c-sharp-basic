@@ -13,11 +13,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "/media/fahad9/All programming/c-sharp-basic/startup/basic.csproj",
-      "projectName": "basic",
-      "projectPath": "/media/fahad9/All programming/c-sharp-basic/startup/basic.csproj",
+      "projectUniqueName": "/media/fahad9/All programming/c-sharp-basic/Fundamental-with-Ms/Fundamental-with-Ms.csproj",
+      "projectName": "Fundamental-with-Ms",
+      "projectPath": "/media/fahad9/All programming/c-sharp-basic/Fundamental-with-Ms/Fundamental-with-Ms.csproj",
       "packagesPath": "/home/fahad9/.nuget/packages/",
-      "outputPath": "/media/fahad9/All programming/c-sharp-basic/startup/obj/",
+      "outputPath": "/media/fahad9/All programming/c-sharp-basic/Fundamental-with-Ms/obj/",
       "projectStyle": "PackageReference",
       "configFilePaths": [
         "/home/fahad9/.nuget/NuGet/NuGet.Config"

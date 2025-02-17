@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "K80KGZ4wrOmJ2HOHjSESAodYKKCaumvl3KMj6fmYTJukekrnIuSSIrgSiWZJJfTTkRLgtI7/TFKLeXpkvvUK7w==",
+  "dgSpecHash": "ahE9rg7EwNrYi0ZYNPtFgw+BTCaIb5jEjNf8rF5/gQH2D6ggYSf8BEzf+05G8WmF2ePZEk/BQtN3e5mEOsy78A==",
   "success": true,
-  "projectFilePath": "/media/fahad9/All programming/c-sharp-basic/basic.csproj",
+  "projectFilePath": "/media/fahad9/All programming/c-sharp-basic/startup/basic.csproj",
   "expectedPackageFiles": [],
   "logs": []
 }
