@@ -41,6 +41,7 @@ public class HelloWorld
 */
 
 // polymorphism and inheritance
+/*
 using System;
 
 public class SubClass{
@@ -63,5 +64,18 @@ public class MainApp{
         sc.show();
         HelloWorld hw = new HelloWorld();
         hw.show(6);
+    }
+}
+*/
+
+using System;
+
+public class Animal{
+    public virtual void Sound(){
+        Console.WriteLine("Animal makes sound");
+    }
+    public static void Main(string[] args){
+        Animal a = new Animal();
+        a.Sound();
     }
 }
