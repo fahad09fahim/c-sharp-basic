@@ -1,4 +1,5 @@
-﻿using System;
+﻿/*
+using System;
 
 public class App{
     public void newApp(){
@@ -35,5 +36,32 @@ public class HelloWorld
      Console.WriteLine("Give user number");
      int n = int.Parse(Console.ReadLine());
      ap.newApp("Fintrackr",n);
+    }
+}
+*/
+
+// polymorphism and inheritance
+using System;
+
+public class SubClass{
+    public void show(){
+        Console.WriteLine("This is subclass show");
+    }
+}
+public class HelloWorld : SubClass{
+    public void show(){
+        Console.WriteLine("This is HelloWorld show");
+    }
+    public void show(int n){
+        Console.WriteLine("This is Another Show "+n);
+    }
+}
+public class MainApp{
+    public static void Main(string[]args){
+        // Console.WriteLine("Hello World!");
+        SubClass sc = new SubClass();
+        sc.show();
+        HelloWorld hw = new HelloWorld();
+        hw.show(6);
     }
 }
