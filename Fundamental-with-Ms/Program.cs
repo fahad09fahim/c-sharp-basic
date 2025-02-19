@@ -36,7 +36,7 @@ Console.Write(" The temperature is "+temperature+" celsius.");
 // Console.WriteLine(@"c:\invoices\app.exe -j");
 
 
-string projectName = "ACME";
+/*string projectName = "ACME";
 
 string russianMessage = "\u041f\u043e\u0441\u043c\u043e\u0442\u0440\u0435\u0442\u044c \u0440\u0443\u0441\u0441\u043a\u0438\u0439 \u0432\u044b\u0432\u043e\u0434";
 
@@ -44,3 +44,13 @@ Console.WriteLine("View English Output: ");
 Console.WriteLine($"c:\\Exercise\\{projectName}\\data.txt"); 
 Console.WriteLine(russianMessage+":");
 Console.WriteLine($"c:\\Exercise\\{projectName}\\ru-Ru\\data.txt"); 
+*/
+
+//Perform basic operations on numbers in C#
+
+/*In math, PEMDAS is an acronym that helps students remember the order of operations. The order is:
+1.Parentheses (whatever is inside the parenthesis is performed first)
+2.Exponents
+3.Multiplication and Division (from left to right)
+4.Addition and Subtraction (from left to right)
+*/
