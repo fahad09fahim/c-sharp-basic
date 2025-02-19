@@ -68,14 +68,66 @@ public class MainApp{
 }
 */
 
-using System;
+// using System;
 
-public class Animal{
-    public virtual void Sound(){
-        Console.WriteLine("Animal makes sound");
+// public class Animal{
+//     public virtual void Sound(){
+//         Console.WriteLine("Animal makes sound");
+//     }
+//     public static void Main(string[] args){
+//         Animal a = new Animal();
+//         a.Sound();
+//     }
+// }
+
+// Classwork 2 (Class, Object, Inheritance, Function Overloading and Overriding Concept):
+public class Myapp{
+   
+    public class Human{
+     
+        public void nameFunc(string name){
+            Console.WriteLine("Calculator Owner's name is: "+ name);
+        }
     }
-    public static void Main(string[] args){
-        Animal a = new Animal();
-        a.Sound();
+    public class Calculator:Human{
+        public virtual int sum(){
+            int x = 5;
+            int y = 10;
+            return x+y;
+        }
     }
+    public class SciCalculator:Calculator{
+        public override int sum(){
+            int x = 10;
+            int y = 5;
+            return x-y;
+        }
+         public int sum(int x, int y){
+            return x+y;
+        }
+    }
+    public static void Main(string[]args){
+    //    Console.WriteLine("Hello world");
+    Human hw = new Human();
+   
+    // only string don't need to use Parse
+    Console.Write("Enter name: ");
+    string name = Console.ReadLine();
+    hw.nameFunc(name);
+   
+    Calculator cal = new Calculator();
+    cal.nameFunc(name);
+    Console.WriteLine("sum result from calculator: "+cal.sum());
+   
+    SciCalculator sciCal = new SciCalculator();
+    sciCal.nameFunc(name);
+    Console.Write("Enter a number: ");
+    int x = int.Parse(Console.ReadLine());
+    Console.Write("Enter another number: ");
+    int y = int.Parse(Console.ReadLine());
+    Console.WriteLine("Result from user input: "+sciCal.sum(x,y));
+    Console.WriteLine("sum result from sciCalculator: "+sciCal.sum());
+
+
+}
 }
