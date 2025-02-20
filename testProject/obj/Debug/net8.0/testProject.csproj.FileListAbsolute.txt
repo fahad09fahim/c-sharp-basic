@@ -1,0 +1,15 @@
+/media/fahad9/All programming/c-sharp-basic/testProject/obj/Debug/net8.0/testProject.GeneratedMSBuildEditorConfig.editorconfig
+/media/fahad9/All programming/c-sharp-basic/testProject/obj/Debug/net8.0/testProject.AssemblyInfoInputs.cache
+/media/fahad9/All programming/c-sharp-basic/testProject/obj/Debug/net8.0/testProject.AssemblyInfo.cs
+/media/fahad9/All programming/c-sharp-basic/testProject/obj/Debug/net8.0/testProject.csproj.CoreCompileInputs.cache
+/media/fahad9/All programming/c-sharp-basic/testProject/obj/Debug/net8.0/testProject.sourcelink.json
+/media/fahad9/All programming/c-sharp-basic/testProject/bin/Debug/net8.0/testProject
+/media/fahad9/All programming/c-sharp-basic/testProject/bin/Debug/net8.0/testProject.deps.json
+/media/fahad9/All programming/c-sharp-basic/testProject/bin/Debug/net8.0/testProject.runtimeconfig.json
+/media/fahad9/All programming/c-sharp-basic/testProject/bin/Debug/net8.0/testProject.dll
+/media/fahad9/All programming/c-sharp-basic/testProject/bin/Debug/net8.0/testProject.pdb
+/media/fahad9/All programming/c-sharp-basic/testProject/obj/Debug/net8.0/testProject.dll
+/media/fahad9/All programming/c-sharp-basic/testProject/obj/Debug/net8.0/refint/testProject.dll
+/media/fahad9/All programming/c-sharp-basic/testProject/obj/Debug/net8.0/testProject.pdb
+/media/fahad9/All programming/c-sharp-basic/testProject/obj/Debug/net8.0/testProject.genruntimeconfig.cache
+/media/fahad9/All programming/c-sharp-basic/testProject/obj/Debug/net8.0/ref/testProject.dll
