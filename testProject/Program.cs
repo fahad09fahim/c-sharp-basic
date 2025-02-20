@@ -31,7 +31,7 @@
 // }
 
 // modify the code using if else nested condition.
-Random dice = new Random();
+/*Random dice = new Random();
 
 int roll1 = dice.Next(1, 7);
 int roll2 = dice.Next(1, 7);
@@ -72,4 +72,31 @@ else if (total == 7)
 else
 {
     Console.WriteLine("You win a kitten!");
+}
+*/
+
+// Challenge: Improve renewal rate of subscriptions
+
+Random random = new Random();
+int daysUntilExpiration = random.Next(12);
+int discountPercentage = 0;
+
+
+if (daysUntilExpiration <= 10 && daysUntilExpiration >= 6)
+{
+    Console.WriteLine("Your subscription will expire soon. Renew now!");
+}
+else if (daysUntilExpiration <= 5 && daysUntilExpiration >= 2)
+{
+    Console.WriteLine("Your subscription will expire in " + daysUntilExpiration + " days. Renew now and get 10% discount!");
+    discountPercentage = 10;
+}
+else if (daysUntilExpiration == 1)
+{
+    Console.WriteLine("Your subscription will expire in 1 day. Renew now and get 20% discount!");
+    discountPercentage = 20;
+}
+else
+{
+    Console.WriteLine("Your subscription will expired");
 }
