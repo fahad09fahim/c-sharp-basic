@@ -142,13 +142,31 @@ int leadingDigit = (int) gradePointAverage;
 int firstDigit = (int) (gradePointAverage * 10 ) % 10;
 int secondDigit = (int) (gradePointAverage * 100 ) % 10;
 
-Console.WriteLine($"Student: {studentName}\n");
-Console.WriteLine("Course\t\t\t\tGrade\tCredit Hours");
+// Console.WriteLine($"Student: {studentName}\n");
+// Console.WriteLine("Course\t\t\t\tGrade\tCredit Hours");
 
-Console.WriteLine($"{course1Name}\t\t\t{course1Grade}\t\t{course1Credit}");
-Console.WriteLine($"{course2Name}\t\t\t{course2Grade}\t\t{course2Credit}");
-Console.WriteLine($"{course3Name}\t\t\t{course3Grade}\t\t{course3Credit}");
-Console.WriteLine($"{course4Name}\t{course4Grade}\t\t{course4Credit}");
-Console.WriteLine($"{course5Name}\t\t{course5Grade}\t\t{course5Credit}");
+// Console.WriteLine($"{course1Name}\t\t\t{course1Grade}\t\t{course1Credit}");
+// Console.WriteLine($"{course2Name}\t\t\t{course2Grade}\t\t{course2Credit}");
+// Console.WriteLine($"{course3Name}\t\t\t{course3Grade}\t\t{course3Credit}");
+// Console.WriteLine($"{course4Name}\t{course4Grade}\t\t{course4Credit}");
+// Console.WriteLine($"{course5Name}\t\t{course5Grade}\t\t{course5Credit}");
 
-Console.WriteLine($"\nFinal GPA:\t\t\t {leadingDigit}.{firstDigit}{secondDigit}");
+// Console.WriteLine($"\nFinal GPA:\t\t\t {leadingDigit}.{firstDigit}{secondDigit}");
+
+
+Random dice = new Random();
+int roll1 = dice.Next();
+int roll2 = dice.Next(101);
+int roll3 = dice.Next(50, 101);
+
+// Console.WriteLine($"First roll: {roll1}");
+// Console.WriteLine($"Second roll: {roll2}");
+// Console.WriteLine($"Third roll: {roll3}");
+
+//Code challenge: Implement a method of the Math class that returns the larger of two numbers
+
+int firstValue = 500;
+int secondValue = 600;
+int largerValue = Math.Max(firstValue, secondValue);
+
+Console.WriteLine(largerValue);
