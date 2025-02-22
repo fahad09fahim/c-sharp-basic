@@ -1,0 +1,15 @@
+/media/fahad9/All programming/c-sharp-basic/GuidedProject/UpdatedProject/bin/Debug/net8.0/UpdatedProject
+/media/fahad9/All programming/c-sharp-basic/GuidedProject/UpdatedProject/bin/Debug/net8.0/UpdatedProject.deps.json
+/media/fahad9/All programming/c-sharp-basic/GuidedProject/UpdatedProject/bin/Debug/net8.0/UpdatedProject.runtimeconfig.json
+/media/fahad9/All programming/c-sharp-basic/GuidedProject/UpdatedProject/bin/Debug/net8.0/UpdatedProject.dll
+/media/fahad9/All programming/c-sharp-basic/GuidedProject/UpdatedProject/bin/Debug/net8.0/UpdatedProject.pdb
+/media/fahad9/All programming/c-sharp-basic/GuidedProject/UpdatedProject/obj/Debug/net8.0/UpdatedProject.GeneratedMSBuildEditorConfig.editorconfig
+/media/fahad9/All programming/c-sharp-basic/GuidedProject/UpdatedProject/obj/Debug/net8.0/UpdatedProject.AssemblyInfoInputs.cache
+/media/fahad9/All programming/c-sharp-basic/GuidedProject/UpdatedProject/obj/Debug/net8.0/UpdatedProject.AssemblyInfo.cs
+/media/fahad9/All programming/c-sharp-basic/GuidedProject/UpdatedProject/obj/Debug/net8.0/UpdatedProject.csproj.CoreCompileInputs.cache
+/media/fahad9/All programming/c-sharp-basic/GuidedProject/UpdatedProject/obj/Debug/net8.0/UpdatedProject.sourcelink.json
+/media/fahad9/All programming/c-sharp-basic/GuidedProject/UpdatedProject/obj/Debug/net8.0/UpdatedProject.dll
+/media/fahad9/All programming/c-sharp-basic/GuidedProject/UpdatedProject/obj/Debug/net8.0/refint/UpdatedProject.dll
+/media/fahad9/All programming/c-sharp-basic/GuidedProject/UpdatedProject/obj/Debug/net8.0/UpdatedProject.pdb
+/media/fahad9/All programming/c-sharp-basic/GuidedProject/UpdatedProject/obj/Debug/net8.0/UpdatedProject.genruntimeconfig.cache
+/media/fahad9/All programming/c-sharp-basic/GuidedProject/UpdatedProject/obj/Debug/net8.0/ref/UpdatedProject.dll
