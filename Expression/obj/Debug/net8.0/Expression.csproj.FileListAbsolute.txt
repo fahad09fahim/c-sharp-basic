@@ -1,0 +1,15 @@
+/media/fahad9/All programming/c-sharp-basic/Expression/bin/Debug/net8.0/Expression
+/media/fahad9/All programming/c-sharp-basic/Expression/bin/Debug/net8.0/Expression.deps.json
+/media/fahad9/All programming/c-sharp-basic/Expression/bin/Debug/net8.0/Expression.runtimeconfig.json
+/media/fahad9/All programming/c-sharp-basic/Expression/bin/Debug/net8.0/Expression.dll
+/media/fahad9/All programming/c-sharp-basic/Expression/bin/Debug/net8.0/Expression.pdb
+/media/fahad9/All programming/c-sharp-basic/Expression/obj/Debug/net8.0/Expression.GeneratedMSBuildEditorConfig.editorconfig
+/media/fahad9/All programming/c-sharp-basic/Expression/obj/Debug/net8.0/Expression.AssemblyInfoInputs.cache
+/media/fahad9/All programming/c-sharp-basic/Expression/obj/Debug/net8.0/Expression.AssemblyInfo.cs
+/media/fahad9/All programming/c-sharp-basic/Expression/obj/Debug/net8.0/Expression.csproj.CoreCompileInputs.cache
+/media/fahad9/All programming/c-sharp-basic/Expression/obj/Debug/net8.0/Expression.sourcelink.json
+/media/fahad9/All programming/c-sharp-basic/Expression/obj/Debug/net8.0/Expression.dll
+/media/fahad9/All programming/c-sharp-basic/Expression/obj/Debug/net8.0/refint/Expression.dll
+/media/fahad9/All programming/c-sharp-basic/Expression/obj/Debug/net8.0/Expression.pdb
+/media/fahad9/All programming/c-sharp-basic/Expression/obj/Debug/net8.0/Expression.genruntimeconfig.cache
+/media/fahad9/All programming/c-sharp-basic/Expression/obj/Debug/net8.0/ref/Expression.dll
