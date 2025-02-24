@@ -55,7 +55,7 @@ else
 
 
 //---------  Code challenge: update problematic code in the code editor-----------///
-int[] numbers = { 4, 8, 15, 16, 23, 42 };
+/*int[] numbers = { 4, 8, 15, 16, 23, 42 };
 int total = 0;
 
 
@@ -71,3 +71,27 @@ foreach (int number in numbers)
 
 }
 Console.WriteLine($"Total: {total}");
+*/
+
+//-----------------------------Code challenge - implement the FizzBuzz challenge rules---------//
+
+
+for (int i = 1; i <= 100; i++)
+{
+    if (i % 3 == 0 && i % 5 == 0)
+    {
+        Console.WriteLine(i + "-FizzBuzz");
+    }
+    else if (i % 5 == 0)
+    {
+        Console.WriteLine(i + "-Buzz");
+    }
+    else if (i % 3 == 0)
+    {
+        Console.WriteLine(i + "-Fizz");
+    }
+    else
+    {
+        Console.WriteLine(i);
+    }
+}
