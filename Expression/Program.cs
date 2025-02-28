@@ -1,6 +1,6 @@
 ﻿
 //Method thats returns a boolean value
-string pangram = "The quick brown fox jumps over the lazy dog.";
+// string pangram = "The quick brown fox jumps over the lazy dog.";
 // Console.WriteLine(pangram.Contains("fox"));
 // Console.WriteLine(pangram.Contains("cow"));
 
@@ -9,8 +9,8 @@ string pangram = "The quick brown fox jumps over the lazy dog.";
 // Console.WriteLine(!pangram.Contains("cow"));
 
 //Coin flip using ternary operator
-Random coin = new Random();
-int coinFlip = coin.Next(0, 2);
+// Random coin = new Random();
+// int coinFlip = coin.Next(0, 2);
 // Console.WriteLine(coinFlip == 0 ? "Heads" : "Tails");
 
 
@@ -145,19 +145,58 @@ Console.WriteLine($"Total: {total}");
 
 //----------------Code project 2 - write code that validates string input---//
 
-bool validEntry = false;
+// bool validEntry = false;
 
-Console.WriteLine("Enter your role name (Administrator, Manager, or User)");
-while (validEntry == false)
+// Console.WriteLine("Enter your role name (Administrator, Manager, or User)");
+// while (validEntry == false)
+// {
+//     string role = Console.ReadLine();
+//     if (role.ToLower() == "administrator" || role.ToLower() == "manager" || role.ToLower() == "user")
+//     {
+//         Console.WriteLine($"Your input value ({role}) has been accepted.");
+//         validEntry = true;
+//     }
+//     else
+//     {
+//         Console.WriteLine($"The role name that you entered, \"{role}\"is not valid. Enter your role name (Administrator, Manager, or User)");
+//     }
+// }
+
+
+//--------------Code project 3 - -----------------//
+string[] myStrings = new string[2] { "I like pizza. I like roast chicken. I like salad", "I like all three of the menu choices" };
+int stringsCount = myStrings.Length;
+
+string myString = "";
+int periodLocation = 0;
+
+for (int i = 0; i < stringsCount; i++)
 {
-    string role = Console.ReadLine();
-    if (role == "Administrator" || role == "Manager" || role == "User")
+    myString = myStrings[i];
+    periodLocation = myString.IndexOf(".");
+
+    string mySentence;
+
+    // extract sentences from each string and display them one at a time
+    while (periodLocation != -1)
     {
-        Console.WriteLine($"Your input value ({role}) has been accepted.");
-        validEntry = true;
+
+        // first sentence is the string value to the left of the period location
+        mySentence = myString.Remove(periodLocation);
+
+        // the remainder of myString is the string value to the right of the location
+        myString = myString.Substring(periodLocation + 1);
+
+        // remove any leading white-space from myString
+        myString = myString.TrimStart();
+
+        // update the comma location and increment the counter
+        periodLocation = myString.IndexOf(".");
+
+        Console.WriteLine(mySentence);
     }
-    else
-    {
-        Console.WriteLine($"The role name that you entered, \"{role}\"is not valid. Enter your role name (Administrator, Manager, or User)");
-    }
+
+    mySentence = myString.Trim();
+    Console.WriteLine(mySentence);
 }
+
