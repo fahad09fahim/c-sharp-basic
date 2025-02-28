@@ -120,25 +120,44 @@ Console.WriteLine($"Total: {total}");
 // Console.WriteLine(hero > monster ? "Hero wins!" : "Monster wins!");
 
 
-//--------------------------Code project 1 - write code that validates integer input---------------------------------//
+//-------------------Code project 1 - write code that validates integer input---------------------------//
+
+// bool validEntry = false;
+// Console.WriteLine("Enter an integer value between 5 and 10");
+// do
+// {
+//     int readResult = int.Parse(Console.ReadLine());
+//     if (readResult >= 5 && readResult <= 10)
+//     {
+//         Console.WriteLine($"Your input value ({readResult}) has been accepted.");
+//         validEntry = true;
+//     }
+//     else if (readResult < 5 || readResult > 10)
+//     {
+//         Console.WriteLine($"You entered {readResult}. Please enter a number between 5 and 10.");
+//     }
+//     else
+//     {
+//         Console.WriteLine("Sorry, you entered an invalid number, please try again");
+//     }
+
+// } while (validEntry == false);
+
+//----------------Code project 2 - write code that validates string input---//
 
 bool validEntry = false;
-Console.WriteLine("Enter an integer value between 5 and 10");
-do
+
+Console.WriteLine("Enter your role name (Administrator, Manager, or User)");
+while (validEntry == false)
 {
-    int readResult = int.Parse(Console.ReadLine());
-    if (readResult >= 5 && readResult <= 10)
+    string role = Console.ReadLine();
+    if (role == "Administrator" || role == "Manager" || role == "User")
     {
-        Console.WriteLine($"Your input value ({readResult}) has been accepted.");
+        Console.WriteLine($"Your input value ({role}) has been accepted.");
         validEntry = true;
-    }
-    else if (readResult < 5 || readResult > 10)
-    {
-        Console.WriteLine($"You entered {readResult}. Please enter a number between 5 and 10.");
     }
     else
     {
-        Console.WriteLine("Sorry, you entered an invalid number, please try again");
+        Console.WriteLine($"The role name that you entered, \"{role}\"is not valid. Enter your role name (Administrator, Manager, or User)");
     }
-
-} while (validEntry == false);
+}
