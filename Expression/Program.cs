@@ -98,23 +98,47 @@ Console.WriteLine($"Total: {total}");
 */
 
 //------------Complete a challenge activity using do and while iteration statements-------------------//
-int hero = 10;
-int monster = 10;
+// int hero = 10;
+// int monster = 10;
 
-Random dice = new Random();
+// Random dice = new Random();
 
+// do
+// {
+//     int roll = dice.Next(1, 11);
+//     monster -= roll;
+//     Console.WriteLine($"Monster was damaged and lost {roll} health and now has {monster} health.");
+
+//     if (monster <= 0) continue;
+
+//     roll = dice.Next(1, 11);
+//     hero -= roll;
+//     Console.WriteLine($"Hero was damaged and lost {roll} health and now has {hero} health.");
+
+// } while (hero > 0 && monster > 0);
+
+// Console.WriteLine(hero > monster ? "Hero wins!" : "Monster wins!");
+
+
+//--------------------------Code project 1 - write code that validates integer input---------------------------------//
+
+bool validEntry = false;
+Console.WriteLine("Enter an integer value between 5 and 10");
 do
 {
-    int roll = dice.Next(1, 11);
-    monster -= roll;
-    Console.WriteLine($"Monster was damaged and lost {roll} health and now has {monster} health.");
+    int readResult = int.Parse(Console.ReadLine());
+    if (readResult >= 5 && readResult <= 10)
+    {
+        Console.WriteLine($"Your input value ({readResult}) has been accepted.");
+        validEntry = true;
+    }
+    else if (readResult < 5 || readResult > 10)
+    {
+        Console.WriteLine($"You entered {readResult}. Please enter a number between 5 and 10.");
+    }
+    else
+    {
+        Console.WriteLine("Sorry, you entered an invalid number, please try again");
+    }
 
-    if (monster <= 0) continue;
-
-    roll = dice.Next(1, 11);
-    hero -= roll;
-    Console.WriteLine($"Hero was damaged and lost {roll} health and now has {hero} health.");
-
-} while (hero > 0 && monster > 0);
-
-Console.WriteLine(hero > monster ? "Hero wins!" : "Monster wins!");
+} while (validEntry == false);
