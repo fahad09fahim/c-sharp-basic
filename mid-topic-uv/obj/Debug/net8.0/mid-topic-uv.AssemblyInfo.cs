@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("mid-topic-uv")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+01136a0ce5db99f772be698b2652d91fd6b4e9fa")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+e1cc03d0c034fcf54f0cf84ee30612164038043d")]
 [assembly: System.Reflection.AssemblyProductAttribute("mid-topic-uv")]
 [assembly: System.Reflection.AssemblyTitleAttribute("mid-topic-uv")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
