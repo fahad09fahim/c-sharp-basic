@@ -1,0 +1,15 @@
+/media/fahad9/All programming/c-sharp-basic/mid-topic-uv/bin/Debug/net8.0/mid-topic-uv
+/media/fahad9/All programming/c-sharp-basic/mid-topic-uv/bin/Debug/net8.0/mid-topic-uv.deps.json
+/media/fahad9/All programming/c-sharp-basic/mid-topic-uv/bin/Debug/net8.0/mid-topic-uv.runtimeconfig.json
+/media/fahad9/All programming/c-sharp-basic/mid-topic-uv/bin/Debug/net8.0/mid-topic-uv.dll
+/media/fahad9/All programming/c-sharp-basic/mid-topic-uv/bin/Debug/net8.0/mid-topic-uv.pdb
+/media/fahad9/All programming/c-sharp-basic/mid-topic-uv/obj/Debug/net8.0/mid-topic-uv.GeneratedMSBuildEditorConfig.editorconfig
+/media/fahad9/All programming/c-sharp-basic/mid-topic-uv/obj/Debug/net8.0/mid-topic-uv.AssemblyInfoInputs.cache
+/media/fahad9/All programming/c-sharp-basic/mid-topic-uv/obj/Debug/net8.0/mid-topic-uv.AssemblyInfo.cs
+/media/fahad9/All programming/c-sharp-basic/mid-topic-uv/obj/Debug/net8.0/mid-topic-uv.csproj.CoreCompileInputs.cache
+/media/fahad9/All programming/c-sharp-basic/mid-topic-uv/obj/Debug/net8.0/mid-topic-uv.sourcelink.json
+/media/fahad9/All programming/c-sharp-basic/mid-topic-uv/obj/Debug/net8.0/mid-topic-uv.dll
+/media/fahad9/All programming/c-sharp-basic/mid-topic-uv/obj/Debug/net8.0/refint/mid-topic-uv.dll
+/media/fahad9/All programming/c-sharp-basic/mid-topic-uv/obj/Debug/net8.0/mid-topic-uv.pdb
+/media/fahad9/All programming/c-sharp-basic/mid-topic-uv/obj/Debug/net8.0/mid-topic-uv.genruntimeconfig.cache
+/media/fahad9/All programming/c-sharp-basic/mid-topic-uv/obj/Debug/net8.0/ref/mid-topic-uv.dll
