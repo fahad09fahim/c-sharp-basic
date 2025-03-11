@@ -1,0 +1,15 @@
+/media/fahad9/All programming/c-sharp-basic/Challenge-project-branching-looping-CSharp-main/ChallengeProject/Starter/bin/Debug/net8.0/Starter
+/media/fahad9/All programming/c-sharp-basic/Challenge-project-branching-looping-CSharp-main/ChallengeProject/Starter/bin/Debug/net8.0/Starter.deps.json
+/media/fahad9/All programming/c-sharp-basic/Challenge-project-branching-looping-CSharp-main/ChallengeProject/Starter/bin/Debug/net8.0/Starter.runtimeconfig.json
+/media/fahad9/All programming/c-sharp-basic/Challenge-project-branching-looping-CSharp-main/ChallengeProject/Starter/bin/Debug/net8.0/Starter.dll
+/media/fahad9/All programming/c-sharp-basic/Challenge-project-branching-looping-CSharp-main/ChallengeProject/Starter/bin/Debug/net8.0/Starter.pdb
+/media/fahad9/All programming/c-sharp-basic/Challenge-project-branching-looping-CSharp-main/ChallengeProject/Starter/obj/Debug/net8.0/Starter.GeneratedMSBuildEditorConfig.editorconfig
+/media/fahad9/All programming/c-sharp-basic/Challenge-project-branching-looping-CSharp-main/ChallengeProject/Starter/obj/Debug/net8.0/Starter.AssemblyInfoInputs.cache
+/media/fahad9/All programming/c-sharp-basic/Challenge-project-branching-looping-CSharp-main/ChallengeProject/Starter/obj/Debug/net8.0/Starter.AssemblyInfo.cs
+/media/fahad9/All programming/c-sharp-basic/Challenge-project-branching-looping-CSharp-main/ChallengeProject/Starter/obj/Debug/net8.0/Starter.csproj.CoreCompileInputs.cache
+/media/fahad9/All programming/c-sharp-basic/Challenge-project-branching-looping-CSharp-main/ChallengeProject/Starter/obj/Debug/net8.0/Starter.sourcelink.json
+/media/fahad9/All programming/c-sharp-basic/Challenge-project-branching-looping-CSharp-main/ChallengeProject/Starter/obj/Debug/net8.0/Starter.dll
+/media/fahad9/All programming/c-sharp-basic/Challenge-project-branching-looping-CSharp-main/ChallengeProject/Starter/obj/Debug/net8.0/refint/Starter.dll
+/media/fahad9/All programming/c-sharp-basic/Challenge-project-branching-looping-CSharp-main/ChallengeProject/Starter/obj/Debug/net8.0/Starter.pdb
+/media/fahad9/All programming/c-sharp-basic/Challenge-project-branching-looping-CSharp-main/ChallengeProject/Starter/obj/Debug/net8.0/Starter.genruntimeconfig.cache
+/media/fahad9/All programming/c-sharp-basic/Challenge-project-branching-looping-CSharp-main/ChallengeProject/Starter/obj/Debug/net8.0/ref/Starter.dll
