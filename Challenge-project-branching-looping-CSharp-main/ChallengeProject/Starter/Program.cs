@@ -290,8 +290,17 @@ do
             {
                 if (ourAnimals[i, 2] == "Age: ?" && ourAnimals[i, 0] != "ID #: ")
                 {
-                    Console.WriteLine(ourAnimals[i, 0]);
-                    Console.WriteLine(ourAnimals[i, 2]);
+                    do
+                    {
+                        Console.WriteLine($"Enter an age for {ourAnimals[i, 0]}");
+                        Console.WriteLine(readResult);
+                        if (readResult != null)
+                        {
+                            animalAge = readResult;
+                            validEntry = int.TryParse(animalAge, out petAge);
+                        }
+                    } while (validEntry == false);
+                    ourAnimals[i, 2] = "Age: " + animalAge.ToString();
                 }
             }
 
