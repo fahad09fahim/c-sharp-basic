@@ -1,0 +1,15 @@
+/media/fahad9/All programming/c-sharp-basic/data-type/bin/Debug/net8.0/data-type
+/media/fahad9/All programming/c-sharp-basic/data-type/bin/Debug/net8.0/data-type.deps.json
+/media/fahad9/All programming/c-sharp-basic/data-type/bin/Debug/net8.0/data-type.runtimeconfig.json
+/media/fahad9/All programming/c-sharp-basic/data-type/bin/Debug/net8.0/data-type.dll
+/media/fahad9/All programming/c-sharp-basic/data-type/bin/Debug/net8.0/data-type.pdb
+/media/fahad9/All programming/c-sharp-basic/data-type/obj/Debug/net8.0/data-type.GeneratedMSBuildEditorConfig.editorconfig
+/media/fahad9/All programming/c-sharp-basic/data-type/obj/Debug/net8.0/data-type.AssemblyInfoInputs.cache
+/media/fahad9/All programming/c-sharp-basic/data-type/obj/Debug/net8.0/data-type.AssemblyInfo.cs
+/media/fahad9/All programming/c-sharp-basic/data-type/obj/Debug/net8.0/data-type.csproj.CoreCompileInputs.cache
+/media/fahad9/All programming/c-sharp-basic/data-type/obj/Debug/net8.0/data-type.sourcelink.json
+/media/fahad9/All programming/c-sharp-basic/data-type/obj/Debug/net8.0/data-type.dll
+/media/fahad9/All programming/c-sharp-basic/data-type/obj/Debug/net8.0/refint/data-type.dll
+/media/fahad9/All programming/c-sharp-basic/data-type/obj/Debug/net8.0/data-type.pdb
+/media/fahad9/All programming/c-sharp-basic/data-type/obj/Debug/net8.0/data-type.genruntimeconfig.cache
+/media/fahad9/All programming/c-sharp-basic/data-type/obj/Debug/net8.0/ref/data-type.dll
