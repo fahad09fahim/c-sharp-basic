@@ -71,19 +71,38 @@ It returns a bool to indicate whether the action succeeded or failed.
 
 
 //challenge project
-int value1 = 11;
-decimal value2 = 6.2m;
-float value3 = 4.3f;
+// int value1 = 11;
+// decimal value2 = 6.2m;
+// float value3 = 4.3f;
 
-// Your code here to set result1
-// Hint: You need to round the result to nearest integer (don't just truncate)
-int result1 = (int)Math.Round((decimal)value1 / value2);
-Console.WriteLine($"Divide value1 by value2, display the result as an int: {result1}");
+// // Your code here to set result1
+// // Hint: You need to round the result to nearest integer (don't just truncate)
+// int result1 = (int)Math.Round((decimal)value1 / value2);
+// Console.WriteLine($"Divide value1 by value2, display the result as an int: {result1}");
 
-// Your code here to set result2
-decimal result2 = value2 / (decimal)value3;
-Console.WriteLine($"Divide value2 by value3, display the result as a decimal: {result2}");
+// // Your code here to set result2
+// decimal result2 = value2 / (decimal)value3;
+// Console.WriteLine($"Divide value2 by value3, display the result as a decimal: {result2}");
 
-// Your code here to set result3
-float result3 = value3 / value1;
-Console.WriteLine($"Divide value3 by value1, display the result as a float: {result3}");
+// // Your code here to set result3
+// float result3 = value3 / value1;
+// Console.WriteLine($"Divide value3 by value1, display the result as a float: {result3}");
+
+// Array sorting 
+string[] pallets = ["B14", "A11", "B12", "A13"];
+
+Console.WriteLine("Sorted...");
+Array.Sort(pallets);
+foreach (var pallet in pallets)
+{
+    Console.WriteLine($"-- {pallet}");
+}
+
+Console.WriteLine(" ");
+
+Console.WriteLine("Reversed");
+Array.Reverse(pallets);
+foreach (var pallet in pallets)
+{
+    Console.WriteLine($"-- {pallet}");
+}
