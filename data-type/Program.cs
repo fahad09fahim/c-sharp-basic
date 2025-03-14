@@ -121,22 +121,37 @@ Array.Sort(valueArray);
 // }
 
 
-string pangram = "The quick brown fox jumps over the lazy dog";
+// string pangram = "The quick brown fox jumps over the lazy dog";
 
-// Step 1
-string[] message = pangram.Split(' ');
+// // Step 1
+// string[] message = pangram.Split(' ');
 
-//Step 2
-string[] newMessage = new string[message.Length];
+// //Step 2
+// string[] newMessage = new string[message.Length];
 
-// Step 3
-for (int i = 0; i < message.Length; i++)
-{
-    char[] letters = message[i].ToCharArray();
-    Array.Reverse(letters);
-    newMessage[i] = new string(letters);
-}
+// // Step 3
+// for (int i = 0; i < message.Length; i++)
+// {
+//     char[] letters = message[i].ToCharArray();
+//     Array.Reverse(letters);
+//     newMessage[i] = new string(letters);
+// }
 
-//Step 4
-string result = String.Join(" ", newMessage);
-Console.WriteLine(result);
+// //Step 4
+// string result = String.Join(" ", newMessage);
+// Console.WriteLine(result);
+
+
+
+decimal price = 67.55m;
+decimal salePrice = 59.99m;
+
+string yourDiscount = String.Format("You saved {0:C2} off the regular {1:C2} price. ", (price - salePrice), price);
+
+Console.WriteLine(yourDiscount);
+
+/*
+Format currency using a :C specifier.
+Format numbers using a :N specifier. Control the precision (number of values after the decimal point) using a number after the :N like {myNumber:N3}.
+Format percentages using the :P format specifier.
+Formatting currency and numbers depend on the end user's culture, a five character code that includes the user's country/region and language (per the settings on their computer).*/
