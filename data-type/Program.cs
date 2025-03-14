@@ -185,8 +185,13 @@ Console.WriteLine("Here's a quick comparison:\n");
 string comparisonMessage = "";
 
 
-comparisonMessage += $"Magic Yield: {currentReturn:P2}  {currentProfit:c}\n";
-comparisonMessage += $"Glorious Future: {newReturn:P2} {newProfit:c}";
-// Your logic here
+comparisonMessage = currentProduct.PadRight(20);
+comparisonMessage += String.Format("{0:P}", currentReturn).PadRight(10);
+comparisonMessage += String.Format("{0:C}", currentProfit).PadRight(20);
+
+comparisonMessage += "\n";
+comparisonMessage += newProduct.PadRight(20);
+comparisonMessage += String.Format("{0:P}", newReturn).PadRight(10);
+comparisonMessage += String.Format("{0:C}", newProfit).PadRight(20);
 
 Console.WriteLine(comparisonMessage);
