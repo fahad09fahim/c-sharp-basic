@@ -89,28 +89,28 @@ It returns a bool to indicate whether the action succeeded or failed.
 // Console.WriteLine($"Divide value3 by value1, display the result as a float: {result3}");
 
 // Array sorting 
-string[] pallets = ["B14", "A11", "B12", "A13"];
+// string[] pallets = ["B14", "A11", "B12", "A13"];
 
-Console.WriteLine("Sorted...");
-Array.Sort(pallets);
-foreach (var pallet in pallets)
-{
-    Console.WriteLine($"-- {pallet}");
-}
+// Console.WriteLine("Sorted...");
+// Array.Sort(pallets);
+// foreach (var pallet in pallets)
+// {
+//     Console.WriteLine($"-- {pallet}");
+// }
 
-Console.WriteLine(" ");
+// Console.WriteLine(" ");
 
-Console.WriteLine("Reversed");
-Array.Reverse(pallets);
-foreach (var pallet in pallets)
-{
-    Console.WriteLine($"-- {pallet}");
-}
+// Console.WriteLine("Reversed");
+// Array.Reverse(pallets);
+// foreach (var pallet in pallets)
+// {
+//     Console.WriteLine($"-- {pallet}");
+// }
 
-string value = "abc123";
-char[] valueArray = value.ToCharArray();
-// Array.Reverse(valueArray);
-Array.Sort(valueArray);
+// string value = "abc123";
+// char[] valueArray = value.ToCharArray();
+// // Array.Reverse(valueArray);
+// Array.Sort(valueArray);
 
 // string result = String.Join(",", valueArray);
 // Console.WriteLine(result);
@@ -143,15 +143,50 @@ Array.Sort(valueArray);
 
 
 
-decimal price = 67.55m;
-decimal salePrice = 59.99m;
+// decimal price = 67.55m;
+// Console.WriteLine(price);
+// decimal salePrice = 59.99m;
 
-string yourDiscount = String.Format("You saved {0:C2} off the regular {1:C2} price. ", (price - salePrice), price);
+// string yourDiscount = String.Format("You saved {0:C2} off the regular {1:C2} price. ", (price - salePrice), price);
 
-Console.WriteLine(yourDiscount);
+// Console.WriteLine(yourDiscount);
 
 /*
 Format currency using a :C specifier.
 Format numbers using a :N specifier. Control the precision (number of values after the decimal point) using a number after the :N like {myNumber:N3}.
 Format percentages using the :P format specifier.
 Formatting currency and numbers depend on the end user's culture, a five character code that includes the user's country/region and language (per the settings on their computer).*/
+
+
+// Challenge string interpolation
+
+string customerName = "Ms. Barros";
+
+string currentProduct = "Magic Yield";
+int currentShares = 2975000;
+decimal currentReturn = 0.1275m;
+decimal currentProfit = 55000000.0m;
+
+string newProduct = "Glorious Future";
+decimal newReturn = 0.13125m;
+decimal newProfit = 63000000.0m;
+
+// Your logic here
+Console.WriteLine($"Dear {customerName}");
+Console.WriteLine($"As a customer of our {currentProduct} offering we are excited to tell you about a new financial product that would dramatically increase your return.");
+Console.WriteLine(" ");
+Console.WriteLine($"Currently, you own {currentShares:N0} shares at a return of {currentReturn:P2}.");
+Console.WriteLine(" ");
+Console.WriteLine($"Our new product, {newProduct} offers a return of {newReturn:P2}.  Given your current volume, your potential profit would be {newProfit:N2}.");
+Console.WriteLine(" ");
+
+Console.WriteLine("Here's a quick comparison:\n");
+
+string comparisonMessage = "";
+
+
+comparisonMessage += $"Magic Yield: {currentReturn:P2}  {currentProfit:c}\n";
+comparisonMessage += $"Glorious Future: {newReturn:P2} {newProfit:c}";
+// Your logic here
+
+Console.WriteLine(comparisonMessage);
